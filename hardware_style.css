@@ -1,0 +1,89 @@
+body{
+    background-image: url("Source/Img/1580037.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Verdana; /*, Geneva, Tahoma, sans-serif;*/
+}
+.full{
+    max-width: 1000px;
+    height: 2000px;
+    width: 95%;
+    background-color: rgb(20, 41, 82);
+    margin: auto;
+    opacity: 85%;
+    color:rgb(234, 239, 250) ;
+}
+.header{
+    border: 2px solid rgb(33,56,97);
+    height: 60px;
+    font-size: xx-large;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;/*Na ezt majd valaki magyarázza el mert végem van!!!!*/
+}
+.navbar{
+    max-width: 1000px;
+    width: 100%;
+    height: 30px;
+    background-color:black;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 30px;
+}
+.Main-container{
+    background-color:rgb(25, 49, 103);
+    width: 1000px;
+    padding: 5px;
+    opacity: 85%;
+    text-align: justify;
+    border: 2px solid rgb(33,56,97);
+}
+.Main_left{
+    background-color: rgb(20, 80, 82);
+    width: 60%;
+    height: 1860px;
+    float: left;
+    text-align: justify;
+    border: 2px solid rgb(35, 95, 97) ;
+    margin: 10px;
+    padding: 5px;
+}
+.Main_right{
+    background-color: rgb(20, 80, 82);
+    height: 1850px;
+    width: 30%;
+    float: right;
+    text-align: justify;
+    border: 2px solid rgb(35, 95, 97) ;
+    margin: 10px;
+    padding: 10px;
+}
+li{
+    list-style-type: square;
+}
+.Main_left:hover{
+    background-color: rgb(15, 50, 60);
+    border: 2px solid rgb(30,65,75);
+}
+.Main_right:hover{
+    background-color: rgb(15, 50, 60);
+    border: 2px solid rgb(30,65,75);
+}
+.navbar a:hover{
+    color: rgb(132, 158, 225)
+}
+.Main_right a:hover{
+    color:  rgb(132, 158, 225)
+}
+.Main_right a:link, a:visited{
+    text-decoration: none;
+    color:rgb(234, 239, 250) ;
+}
+.navbar a:link, a:visited{
+    text-decoration: none;
+    color:rgb(234, 239, 250) ;
+}
+
