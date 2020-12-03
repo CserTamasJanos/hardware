@@ -4,18 +4,24 @@ body{
     background-attachment: fixed;
     background-size: cover;
     font-family: Verdana; /*, Geneva, Tahoma, sans-serif;*/
+    /*width: 100%;
+    min-width: 700px;
+    padding: 5px 5px 5px 5px;
+    margin: 0;*/
 }
 .full{
-    max-width: 1000px;
-    height: 2000px;
-    width: 95%;
-    background-color: rgb(20, 41, 82);
+    max-width: 1000x;
+    width: 100%;
+    min-width: 700px;
+
+    /*background-color: rgb(20, 41, 82);*/
     margin: auto;
     opacity: 85%;
     color:rgb(234, 239, 250) ;
 }
 .header{
     border: 2px solid rgb(33,56,97);
+    background-color: rgb(20, 41, 82);
     height: 60px;
     font-size: xx-large;
     text-align: center;
@@ -25,6 +31,7 @@ body{
 .navbar{
     max-width: 1000px;
     width: 100%;
+    min-width: 700px;
     height: 30px;
     background-color:black;
     text-align: center;
@@ -32,34 +39,44 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
     line-height: 30px;
+    margin: auto;
 }
 .Main-container{
     background-color:rgb(25, 49, 103);
-    width: 1000px;
-    padding: 5px;
+    border: 2px solid rgb(33,56,97);
+    max-width: 1000px;
+    min-width: 700px;
+    width: 100%;
+    padding: 0px;
     opacity: 85%;
     text-align: justify;
-    border: 2px solid rgb(33,56,97);
+
 }
 .Main_left{
     background-color: rgb(20, 80, 82);
+    border: 2px solid rgb(35, 95, 97);
     width: 60%;
-    height: 1860px;
-    float: left;
-    text-align: justify;
-    border: 2px solid rgb(35, 95, 97) ;
+    min-width: 380px;
+    height: auto;
+    min-height: 1000px;
     margin: 10px;
     padding: 5px;
+    float: left;
+    text-align: justify;
+    display: inline;
+    white-space: pre-wrap;
 }
 .Main_right{
     background-color: rgb(20, 80, 82);
-    height: 1850px;
+    border: 2px solid rgb(35, 95, 97) ;
+    min-height: 1000px;
     width: 30%;
+    min-width: 190px;
+    margin: 10px;
+    padding: 5px;
     float: right;
     text-align: justify;
-    border: 2px solid rgb(35, 95, 97) ;
-    margin: 10px;
-    padding: 10px;
+
 }
 li{
     list-style-type: square;
