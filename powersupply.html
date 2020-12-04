@@ -22,109 +22,105 @@
         </div>
 
         <div class="Page_navbar">
-            <ul>
-                <a>Hardver történelem</a>
                 <a href="hardware.html">Hardver</a>
+                <a>Hardver történelem</a>
                 <a>Alapgép</a>
                 <a>Bővítőkártyák</a>
                 <a>Háttértárak</a>
                 <a>Külső perifériák</a>
                 <a>Letöltések</a>
-            </ul>
         </div>
 
         <div class="Theme">
             <p>
                 Tápegység(PSU - Power Supply Unit)
 
-	A tápegység olyan készülék amely az elektromos hálózat energiáját a rácsatlakoztatni kívánt eszköz által megkívánt jellegűre alakítja.
-
-	Az elektromos készülékek különféle feszültséget és áramerősséget igényelnek. Az elektronikus áramkörökkel ellátott berendezésekhez általában egyenfeszültség is szükséges amit célszerűbb a hálózati váltakozó feszültség átalakításával mint például akkumulátorokból biztosítani
-
-Típusai:
-
-	Lineáris üzemű tápegység (Analóg-disszipatív)
-	Kapcsolóüzemű tápegység (Nagyfrekvenciás vagy D-osztályú)
-
-Lineáris üzemű tápegység:
-	A lineáris vagyis szaknyelven: analóg-disszipatív tápegység a hálózati feszültséget közvetlenül alakítja át, tehát nem használ impulzustechnikai áramköröket. A hálózati váltakozó feszültséget egy transzformátor a szükséges értékre alakítja. Az An.Disz. rendszerű tápegységek igen jól szabályozhatóak és megbízhatóak. Hátránya a nagy mérete ami súlyossá teszi az egységet. A hatásfoka kicsi. Teljesítményének mintegy 60%-a veszendőbe megy, ezen kívül jellemzően a hűtéséről is gondoskodni kell.
-
-Kapcsolóüzemű tápegység:
-	A kapcsolóüzemű tápegység (switched-mode power supply) egy elektronikus tápegység, amely a kívánt feszültség és áram előállításához ill. annak állandó értéken tartásához nagyfrekvenciájú kapcsolójelet használ.Előnye a hagyományos váltóáramú tápegységekhez képest, hogy sokkal kisebb (így könnyebb), hatásfoka akár 99%-ot is elérheti, és tudja kezelni a zárlatot.
-
-	A számítógép működéséhez szükséges energiát a tápegységen keresztül a 230V-os hálózatból nyeri. A tápegység feladata a váltófeszültség átalakítása a számítógépben használt egyenfeszültséggé (5V és 12V).
-	Ezen kívül figyeli az általa előállított feszültségeket. A rendszer indításában is közrejátszik (Power-good jel). Saját áramköreinek hőmérséklete alapján vezérelheti a hűtő ventilátorokat.
-
-Alapvető követelmények a tápegységgel szemben:
-	A rendelkezésre álló tápforrás feszültségének átalakítása a készülék üzemeltetéséhez szükséges egyenfeszültséggé. Az előállított feszültség stabilizálása.
-	Rövid időtartamú bemeneti feszültség kimaradás esetén a kimeneti feszültség szünetmentes biztosítása.
-	A táplált áramkör védelme a bemenetről származó tranziensektől vagy tápegység-meghibásodásoktól.
-	A tápegység kimenetének a bemenettől való galvanikus leválasztása.
-
-PFC (Power Factor Correction)
-
-	A PFC csökkenti a kimenő hálózati zavart. Ahhoz, hogy a hálózat gazdaságosabban működjön, teljesítmény tényező javítást (PFC-t) használnak a tápok. A PFC-nek két megvalósítása van a passzív (kvázi) és a aktív (full).
-
-Teljesítménytényező:
-	A PCF nélküli táp: kb. ,65
-	Aktív PFC-vel szerelt táp: 0,9-,098
-
-	A táp az aktív PFC megvalósításához egy külön vezérlő áramkört kap a bemenő áram alakításáért. Ez a megvalósítás ott jelent előnyt, ahol gyakori a feszültségingadozás(amit az aktív vezérlés szünetmentes nélkül is le tud kezelni).További előnye még, hogy szinte bármilyen bemeneti feszültségen működik a táp.
-
-	A passzív változat nem használ vezérlést és egy vasmaggal korrigálja az áramhullámot. Ennek megfelelően kisebb a meghibásodási esély. Hátránya, hogy fix bemeneti feszültségen működik.
-
-	A tápegységek egy részén a bemenő feszültség értéke a 110V és 230V értékek közül egy kis kapcsolóval megadható. Fontos, hogy ezt helyesen állítsuk be, hiszen a hibás beállítás veszélyes és károsodhat a számítógép is.
-
-	A tápegységek fontos adata, hogy mennyi energiát tudnak szolgáltatni,amit Watt-ban mért leadható teljesítménnyel jellemzünk. A ma használatos egyszerűbb gépekhez a tápegységek legalább 400W teljesítményűek, de léteznek nagyobb teljesítményűek (600W-1000W) hiszen több háttértár és kártya megnöveli a teljesítményigényt.
-	A tápegység fizikailag külön dobozban található meg házon belül. A megfelelő szellőzés biztosítása érdekében egy +12Vról működő ventilátor szívja ki a meleg levegőt a dobozból. Ez a+12V-os kivitelezés nincs összekapcsolva a perifériák számára előállított +12V-tal.
-
-	A tápot tartalmazó fémdobozban megtalálható:
-	A hálózati feszültség csatlakozója.
-	115/230 V váltókapcsoló.
-	A hűtőventilátor nyílása.
-	A drótokra szerelt csatlakozók
-	A hálózati kapcsoló (ez kihelyezik a számítógép dobozára, a kapcsolóhoz pedig egy kábel vezet)
-
-Fajtái:
-
-Külső tápegység(pl notebook esetében).
-
-AT: Ezeket az operációs rendszer nem tudja vezérelni, például nem tudja kikapcsolni. ezeket 1996-ig a P2-P3-as alaplapok koráig használták. Az alaplapra 2 darab 5 eres csatlakozóval kapcsolódik és általános esetben található rajta egy 220V-os továbbvezető ég a monitor részére.
-
-ATX (Advanced Technology eXtended): Az alaplap folyamatosan kap egy alacsony (+5V) feszültséget, így lehetővé válik, hogy a gépet szoftveres úton leállítsuk, illetve külső hardveregység segítségével (pl:modem, hálózatikártya) “felébresszük” (Wake-On-LAN), tehát az alaplap tudja vezérelni a tápegységet. az alaplapra 1x20 vagy 20 plusz 4 eres csatlakozóval kapcsolódik és mindegyikük kapcsolóüzemű.
-
-Moduláris táp amelyek nem tartalmaznak kábeleken kilógó csatlakozókat. A készülék csatlakozó felületet tartalmaz és hozzá a felhasználó tetszőleges számú kábelt csatlakoztathat.
-
-
-Kimenetek:
-	-12V:pl. soros port negatív feszültség szintjéhez.
-	+3, 3V: pl. bővítőkérták (PCI, AGP, PCMCIA) és integrált áramkörök, processzorok, alaplap számára (AT tápegységben nincs).
-	+5V: pl USB-s eszközök, bővítőkártyák, hardverelemek tápenergiája.
-	+5 VSB: Szünetmentes feszültség, amely a számítógép kikapcsolása után is jelen van. Olyan eszközök számára, amelyek előidézhetik a számítógép elindulását (pl.:PS/2, USB billentyűzet és egér, PCI kártyák: hálózati kártya (wake-up LAN)) (AT tápegységben nincs).
-	+12 V: pl. mechanikus egységek számára (merevlemez, optikai meghajtó, hajlékonylemez meghajtó motorja, ventilátor), soros port pozitív feszültségszintje.
-
-
-Egy mai átlagos tápegységhez tartozó csatlakozók:
-	4 db 5,25” eszközhöz való tápcsatlakozó.
-	2 db 3,5” eszközhöz való csatlakozó
-	6 db SATA eszközhöz való csatlakozó.
-	2 db 6+2 pin VGA tápcsatlakozó.
-	20 pin + 4 pin.
-	4 +4 pin.
-	4 pin.
-
-Kábelekhez (a tábláról)
-
-	Primary ------> PM (Primary Master) - PS(Primary Slave)
-	Secondary---> SM(Secondary Master) - SS(Secondary Salve)
-
-Átviteli sebesség (Mbit/sec): (Megkérdezni mert a neten MB-t találtam...)
-
-	ATA - 66
-	ATA - 133
-	SATA 1(150) 2(300) 3 (600)
-	SATA M2
+                A tápegység olyan készülék amely az elektromos hálózat energiáját a rácsatlakoztatni kívánt eszköz által megkívánt jellegűre alakítja.
                 
+                Az elektromos készülékek különféle feszültséget és áramerősséget igényelnek. Az elektronikus áramkörökkel ellátott berendezésekhez általában egyenfeszültség is szükséges amit célszerűbb a hálózati váltakozó feszültség átalakításával mint például akkumulátorokból biztosítani
+                
+                Típusai
+                Lineáris üzemű tápegység (Analóg-disszipatív)
+                Kapcsolóüzemű tápegység (Nagyfrekvenciás vagy D-osztályú)
+                
+                Lineáris üzemű tápegység:
+                A lineáris vagyis szaknyelven: analóg-disszipatív tápegység a hálózati feszültséget közvetlenül alakítja át, tehát nem használ impulzustechnikai áramköröket. A hálózati váltakozó feszültséget egy transzformátor a szükséges értékre alakítja. Az An.Disz. rendszerű tápegységek igen jól szabályozhatóak és megbízhatóak. Hátránya a nagy mérete ami súlyossá teszi az egységet. A hatásfoka kicsi. Teljesítményének mintegy 60%-a veszendőbe megy, ezen kívül jellemzően a hűtéséről is gondoskodni kell.
+                
+                Kapcsolóüzemű tápegység:
+                A kapcsolóüzemű tápegység (switched-mode power supply) egy elektronikus tápegység, amely a kívánt feszültség és áram előállításához ill. annak állandó értéken tartásához nagyfrekvenciájú kapcsolójelet használ.Előnye a hagyományos váltóáramú tápegységekhez képest, hogy sokkal kisebb (így könnyebb), hatásfoka akár 99%-ot is elérheti, és tudja kezelni a zárlatot.
+                
+                
+                A számítógép működéséhez szükséges energiát a tápegységen keresztül a 230V-os hálózatból nyeri. A tápegység feladata a váltófeszültség átalakítása a számítógépben használt egyenfeszültséggé (5V és 12V).
+                Ezen kívül figyeli az általa előállított feszültségeket. A rendszer indításában is közrejátszik (Power-good jel). Saját áramköreinek hőmérséklete alapján vezérelheti a hűtő ventilátorokat.
+                
+                Alapvető követelmények a tápegységgel szemben:
+                A rendelkezésre álló tápforrás feszültségének átalakítása a készülék üzemeltetéséhez szükséges egyenfeszültséggé. Az előállított feszültség stabilizálása.
+                Rövid időtartamú bemeneti feszültség kimaradás esetén a kimeneti feszültség szünetmentes biztosítása.
+                A táplált áramkör védelme a bemenetről származó tranziensektől vagy tápegység-meghibásodásoktól.
+                A tápegység kimenetének a bemenettől való galvanikus leválasztása.
+                
+                PFC (Power Factor Correction)
+                
+                A PFC csökkenti a kimenő hálózati zavart. Ahhoz, hogy a hálózat gazdaságosabban működjön, teljesítmény tényező javítást (PFC-t) használnak a tápok. A PFC-nek két megvalósítása van a passzív (kvázi) és a aktív (full).
+                
+                Teljesítménytényező:
+                A PCF nélküli táp: kb. ,65
+                Aktív PFC-vel szerelt táp: 0,9-,098
+                
+                A táp az aktív PFC megvalósításához egy külön vezérlő áramkört kap a bemenő áram alakításáért. Ez a megvalósítás ott jelent előnyt, ahol gyakori a feszültségingadozás(amit az aktív vezérlés szünetmentes nélkül is le tud kezelni).További előnye még, hogy szinte bármilyen bemeneti feszültségen működik a táp.
+                
+                A passzív változat nem használ vezérlést és egy vasmaggal korrigálja az áramhullámot. Ennek megfelelően kisebb a meghibásodási esély. Hátránya, hogy fix bemeneti feszültségen működik.
+                
+                A tápegységek egy részén a bemenő feszültség értéke a 110V és 230V értékek közül egy kis kapcsolóval megadható. Fontos, hogy ezt helyesen állítsuk be, hiszen a hibás beállítás veszélyes és károsodhat a számítógép is.
+                
+                A tápegységek fontos adata, hogy mennyi energiát tudnak szolgáltatni,amit Watt-ban mért leadható teljesítménnyel jellemzünk. A ma használatos egyszerűbb gépekhez a tápegységek legalább 400W teljesítményűek, de léteznek nagyobb teljesítményűek (600W-1000W) hiszen több háttértár és kártya megnöveli a teljesítményigényt.
+                A tápegység fizikailag külön dobozban található meg házon belül. A megfelelő szellőzés biztosítása érdekében egy +12Vról működő ventilátor szívja ki a meleg levegőt a dobozból. Ez a+12V-os kivitelezés nincs összekapcsolva a perifériák számára előállított +12V-tal.
+                
+                A tápot tartalmazó fémdobozban megtalálható:
+                A hálózati feszültség csatlakozója.
+                115/230 V váltókapcsoló.
+                A hűtőventilátor nyílása.
+                A drótokra szerelt csatlakozók
+                A hálózati kapcsoló (ez kihelyezik a számítógép dobozára, a kapcsolóhoz pedig egy kábel vezet)
+                
+                Fajtái:
+                
+                Külső tápegység(pl notebook esetében).
+                
+                AT: Ezeket az operációs rendszer nem tudja vezérelni, például nem tudja kikapcsolni. Ezeket 1996-ig a P2-P3-as alaplapok koráig használták. Az alaplapra 2 darab 5 eres csatlakozóval kapcsolódik és általános esetben található rajta egy 220V-os továbbvezető ég a monitor részére.
+                
+                ATX (Advanced Technology eXtended): Az alaplap folyamatosan kap egy alacsony (+5V) feszültséget, így lehetővé válik, hogy a gépet szoftveres úton leállítsuk, illetve külső hardveregység segítségével (pl:modem, hálózatikártya) “felébresszük” (Wake-On-LAN), tehát az alaplap tudja vezérelni a tápegységet. az alaplapra 1x20 vagy 20 plusz 4 eres csatlakozóval kapcsolódik és mindegyikük kapcsolóüzemű.
+                
+                Moduláris táp amelyek nem tartalmaznak kábeleken kilógó csatlakozókat. A készülék csatlakozó felületet tartalmaz és hozzá a felhasználó tetszőleges számú kábelt csatlakoztathat.
+                
+                
+                Kimenetek:
+                -12V:pl. soros port negatív feszültség szintjéhez.
+                +3, 3V: pl. bővítőkérták (PCI, AGP, PCMCIA) és integrált áramkörök, processzorok, alaplap számára (AT tápegységben nincs).
+                +5V: pl USB-s eszközök, bővítőkártyák, hardverelemek tápenergiája.
+                +5 VSB: Szünetmentes feszültség, amely a számítógép kikapcsolása után is jelen van. Olyan eszközök számára, amelyek előidézhetik a számítógép elindulását (pl.:PS/2, USB billentyűzet és egér, PCI kártyák: hálózati kártya (wake-up LAN)) (AT tápegységben nincs).
+                +12 V: pl. mechanikus egységek számára (merevlemez, optikai meghajtó, hajlékonylemez meghajtó motorja, ventilátor), soros port pozitív feszültségszintje.
+                
+                Egy mai átlagos tápegységhez tartozó csatlakozók:
+                4 db 5,25” eszközhöz való tápcsatlakozó.
+                2 db 3,5” eszközhöz való csatlakozó
+                6 db SATA eszközhöz való csatlakozó.
+                2 db 6+2 pin VGA tápcsatlakozó.
+                20 pin + 4 pin.
+                4 +4 pin.
+                4 pin.
+                
+                
+                Kábelekhez (a tábláról)
+                
+                Primary ------> PM (Primary Master) - PS(Primary Slave)
+                Secondary---> SM(Secondary Master) - SS(Secondary Salve)
+                
+                Átviteli sebesség (Mbit/sec):
+                ATA - 66
+                ATA - 133
+                SATA 1(150) 2(300) 3 (600)
+                SATA M2
             </p>
         </div>
     </div>

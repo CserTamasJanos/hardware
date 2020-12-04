@@ -19,7 +19,7 @@ body{
     color:rgb(234, 239, 250);
     text-align: center;
     height: 60px;
-    line-height: 60px;/*Na ezt majd valaki magyarázza el mert végem van!!!!*/
+    line-height: 60px;
     margin: 5px;
 }
 .Main_navbar{
@@ -36,7 +36,6 @@ body{
     text-align: center;
     padding: 14px;
     text-decoration: none;
-    margin: 5px;
 }
 .Page_navbar{
     border: 2px solid rgb(33,56,97);
@@ -46,6 +45,8 @@ body{
     overflow: auto;
     white-space: nowrap;
     margin: 5px;
+    height: 60px;
+    line-height: 30px;
 }
 .Page_navbar a{
     display: inline-block;
@@ -53,7 +54,6 @@ body{
     text-align: center;
     padding: 14px;
     text-decoration: none;
-    margin: 5px;
 }
 .Theme{
     background-color: rgb(20, 80, 82);
@@ -63,7 +63,7 @@ body{
     text-align: justify;
     white-space: pre-wrap;
     margin: 5px;
-    font-size: 10px;
+    font-size: 12px;
 }
 .Main_navbar a:hover{
     color: rgb(132, 158, 225);
