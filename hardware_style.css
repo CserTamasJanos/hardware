@@ -1,106 +1,83 @@
 body{
-    background-image: url("Source/Img/1580037.jpg");
+    background-image: url("Source/imges/1580037.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: Verdana; /*, Geneva, Tahoma, sans-serif;*/
-    /*width: 100%;
-    min-width: 700px;
-    padding: 5px 5px 5px 5px;
-    margin: 0;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin: 0px;
 }
-.full{
-    max-width: 1000x;
-    width: 100%;
-    min-width: 700px;
-
-    /*background-color: rgb(20, 41, 82);*/
-    margin: auto;
+.Full{
     opacity: 85%;
     color:rgb(234, 239, 250) ;
+    margin: 5px;
 }
-.header{
+.Header{
     border: 2px solid rgb(33,56,97);
     background-color: rgb(20, 41, 82);
-    height: 60px;
-    font-size: xx-large;
+    font-size: 30px;
+    color:rgb(234, 239, 250);
     text-align: center;
-    vertical-align: middle;
+    height: 60px;
     line-height: 60px;/*Na ezt majd valaki magyarázza el mert végem van!!!!*/
+    margin: 5px;
 }
-.navbar{
-    max-width: 1000px;
-    width: 100%;
-    min-width: 700px;
-    height: 30px;
+.Main_navbar{
     background-color:black;
     text-align: center;
     vertical-align: middle;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    line-height: 30px;
-    margin: auto;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 5px;
 }
-.Main-container{
-    background-color:rgb(25, 49, 103);
+.Main_navbar a{
+    display: inline-block;
+    color:rgb(234, 239, 250);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    margin: 5px;
+}
+.Page_navbar{
     border: 2px solid rgb(33,56,97);
-    max-width: 1000px;
-    min-width: 700px;
-    width: 100%;
-    padding: 0px;
-    opacity: 85%;
-    text-align: justify;
-
+    background-color: rgb(20, 41, 82);
+    text-align: center;
+    vertical-align: middle;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 5px;
 }
-.Main_left{
+.Page_navbar a{
+    display: inline-block;
+    color:rgb(234, 239, 250);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    margin: 5px;
+}
+.Theme{
     background-color: rgb(20, 80, 82);
     border: 2px solid rgb(35, 95, 97);
-    width: 60%;
-    min-width: 380px;
     height: auto;
-    min-height: 1000px;
-    margin: 10px;
     padding: 5px;
-    float: left;
     text-align: justify;
-    display: inline;
     white-space: pre-wrap;
+    margin: 5px;
+    font-size: 10px;
 }
-.Main_right{
-    background-color: rgb(20, 80, 82);
-    border: 2px solid rgb(35, 95, 97) ;
-    min-height: 1000px;
-    width: 30%;
-    min-width: 190px;
-    margin: 10px;
-    padding: 5px;
-    float: right;
-    text-align: justify;
-
+.Main_navbar a:hover{
+    color: rgb(132, 158, 225);
+    text-decoration: none;
 }
-li{
-    list-style-type: square;
+.Page_navbar a:hover{
+    color:  rgb(132, 158, 225);
+    text-decoration: none;
 }
-.Main_left:hover{
+.Page_navbar:hover{
+    background-color:rgb(15, 29, 62);
+    border: 2px solid rgb(26, 44, 76);
+}
+.Theme:hover{
     background-color: rgb(15, 50, 60);
     border: 2px solid rgb(30,65,75);
 }
-.Main_right:hover{
-    background-color: rgb(15, 50, 60);
-    border: 2px solid rgb(30,65,75);
-}
-.navbar a:hover{
-    color: rgb(132, 158, 225)
-}
-.Main_right a:hover{
-    color:  rgb(132, 158, 225)
-}
-.Main_right a:link, a:visited{
-    text-decoration: none;
-    color:rgb(234, 239, 250) ;
-}
-.navbar a:link, a:visited{
-    text-decoration: none;
-    color:rgb(234, 239, 250) ;
-}
-
