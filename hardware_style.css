@@ -131,7 +131,7 @@ body{
         min-width: 22%;
     }
     .Theme{
-        min-width: 500px;
+        min-width: 78%;
     }
     .Container{
         display: flex;
@@ -160,7 +160,7 @@ body{
         min-width: 20%;
     }
     .Theme{
-        min-width: 700px;
+        min-width: 80%;
     }
     .Container{
         display: flex;
