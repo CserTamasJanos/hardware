@@ -5,7 +5,13 @@
 *:after {
  box-sizing: border-box;
 }
-html, body{
+html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    position: relative;
+}
+body{
     background-image: url("Source/imges/1580037.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,7 +39,7 @@ html, body{
     color:rgb(234, 239, 250);
     text-align: center;
     height: 60px;
-    line-height: 60px;
+    line-height: 50px;
     margin: 5px;
 }
 .Main_navbar{
@@ -78,6 +84,12 @@ html, body{
     white-space: pre-wrap;
     margin: 5px;
     font-size: 12px;
+    text-align: center;
+}
+.Full #logo{
+    position: relative;
+    height: 30px;
+    margin: -65px 0px -55px 7px;
 }
 .Main_navbar a:hover{
     color: rgb(132, 158, 225);
@@ -107,3 +119,62 @@ html, body{
     vertical-align: middle;
     line-height: 60px;
 }
+@media screen and (min-width: 700px){
+
+    .Page_navbar a{
+        display: block;
+        padding: 4px;
+        font-size: 14px;
+    }
+    .Page_navbar{
+        min-height: 700px;
+        min-width: 22%;
+    }
+    .Theme{
+        min-width: 500px;
+    }
+    .Container{
+        display: flex;
+        flex-direction: row-reverse;
+        grid-template-columns: 25% 25% auto auto;
+    }
+    body{
+        max-width: 800px;
+        margin: auto;
+    }
+    .Full #logo{
+        height: 56px;
+        margin: -55px 0px -66px 7px; 
+    }
+}
+
+@media screen and (min-width: 1000px){
+
+    .Page_navbar a{
+        display: block;
+        padding: 6px;
+        font-size: 16px;
+    }
+    .Page_navbar{
+        min-height: 700px;
+        min-width: 20%;
+    }
+    .Theme{
+        min-width: 700px;
+    }
+    .Container{
+        display: flex;
+        flex-direction: row-reverse;
+        grid-template-columns: 25% 25% auto auto;
+    }
+    body{
+        max-width: 1000px;
+        margin: auto;
+    }
+    .Full #logo{
+        height: 56px;
+        margin: -55px 0px -66px 7px; 
+    }
+}
+
+
