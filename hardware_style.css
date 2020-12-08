@@ -128,10 +128,10 @@ body{
     }
     .Page_navbar{
         min-height: 700px;
-        min-width: 22%;
+        min-width: 25%;
     }
     .Theme{
-        min-width: 78%;
+        min-width: 73%;
     }
     .Container{
         display: flex;
@@ -157,10 +157,10 @@ body{
     }
     .Page_navbar{
         min-height: 700px;
-        min-width: 20%;
+        min-width: 23%;
     }
     .Theme{
-        min-width: 80%;
+        min-width: 75%;
     }
     .Container{
         display: flex;
