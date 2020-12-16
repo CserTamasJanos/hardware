@@ -84,7 +84,7 @@ body{
     white-space: pre-wrap;
     margin: 5px;
     font-size: 12px;
-    text-align: center;
+    /*text-align: center;*/
 }
 .Full #logo{
     position: relative;
@@ -176,5 +176,9 @@ body{
         margin: -55px 0px -66px 7px; 
     }
 }
+/*@font-face {
+    font-family: "Biscuits (sRB)";
+    src: url("biscuits-srb_[allfont.net].ttf");
+}*/
 
 
